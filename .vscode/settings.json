@@ -1,0 +1,49 @@
+{
+    "git.autoRepositoryDetection": "subFolders",
+    
+    "python.languageServer": "Pylance",
+
+    "python.analysis.indexing": true,
+    "python.analysis.importFormat": "absolute",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "sklearn",
+            "depth": 3,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "matplotlib",
+            "depth": 3,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "scipy",
+            "depth": 3,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "django",
+            "depth": 3,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "flask",
+            "depth": 3,
+            "includeAllSymbols": true
+        },
+        {
+            "name": "fastapi",
+            "depth": 3,
+            "includeAllSymbols": true
+        }
+    ],
+
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+
+}

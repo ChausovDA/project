@@ -1,0 +1,13 @@
+[MESSAGE CONTROL]
+disable = line-too-long, 
+    missing-module-docstring, 
+    missing-class-docstring, 
+    missing-function-docstring,
+    attribute-defined-outside-init,
+    invalid-name, 
+    empty-docstring,
+    unused-import,
+    unused-argument,
+    too-few-public-methods
+
+
